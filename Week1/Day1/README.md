@@ -14,6 +14,10 @@
 * 📄 queries.sql
 * 📄 output.txt
 
+## 🛠️ Tools Used
+* DB Fiddle (for executing SQL queries)
+* GitHub (for version control and tracking progress)
+
 ## 📘 Key Learnings
 
 * How to filter and retrieve specific data
