@@ -1,0 +1,124 @@
+-- 1.Display all students and the courses they are enrolled in.
+Query #1 Execution time: 0.54ms
+student_name	course_name
+Alice Johnson	SQL Basics
+Alice Johnson	Python Fundamentals
+Bob Smith	SQL Basics
+Charlie Brown	Cloud Computing
+Diana Prince	Cyber Security
+Ethan Hunt	null
+Fiona Green	null
+
+
+-- 2.Find all courses that currently have no students enrolled.
+Query #1 Execution time: 0.52ms
+course_id	course_name
+103	Data Analytics
+105	Machine Learning
+
+-- 3.Display all instructors and the courses they teach,
+Query #1 Execution time: 0.62ms
+instructor_name	course_name
+Sarah Connor	SQL Basics
+Michael Scott	Python Fundamentals
+Tony Stark	Cloud Computing
+Bruce Wayne	Cyber Security
+
+-- 4.Find all courses that do not have an instructor assigned.
+Query #1 Execution time: 0.24ms
+course_id	course_name
+103	Data Analytics
+105	Machine Learning
+
+-- 5.Display all students and enrollment information using a RIGHT JOIN.
+Query #1 Execution time: 0.48ms
+student_name	enrollment_id	course_id	enrollment_date
+Alice Johnson	1	101	2024-01-10
+Alice Johnson	2	102	2024-01-12
+Bob Smith	3	101	2024-01-15
+Charlie Brown	4	104	2024-01-20
+Diana Prince	5	106	2024-01-25
+
+-- 6.Find students who are not enrolled in any course.
+Query #1 Execution time: 0.48ms
+student_id	student_name
+5	Ethan Hunt
+6	Fiona Green
+
+-- 7.Use a FULL OUTER JOIN to display all students and enrollments
+Query #1 Execution time: 0.5ms
+student_name	enrollment_id	course_id	enrollment_date
+Alice Johnson	1	101	2024-01-10
+Alice Johnson	2	102	2024-01-12
+Bob Smith	3	101	2024-01-15
+Charlie Brown	4	104	2024-01-20
+Diana Prince	5	106	2024-01-25
+Ethan Hunt	null	null	null
+Fiona Green	null	null	null
+
+-- 8.Find all courses that have never appeared in the enrollments table.
+Query #1 Execution time: 0.46ms
+course_id	course_name
+103	Data Analytics
+105	Machine Learning
+
+--9.Display all instructors and courses using a FULL OUTER JOIN
+Query #1 Execution time: 0.43ms
+instructor_name	course_name
+Sarah Connor	SQL Basics
+Michael Scott	Python Fundamentals
+null	Data Analytics
+Tony Stark	Cloud Computing
+null	Machine Learning
+Bruce Wayne	Cyber Security
+
+--10
+Query #1 Execution time: 0.79ms
+student_name	course_name	instructor_name
+Alice Johnson	SQL Basics	Sarah Connor
+Alice Johnson	Python Fundamentals	Michael Scott
+Bob Smith	SQL Basics	Sarah Connor
+Charlie Brown	Cloud Computing	Tony Stark
+Diana Prince	Cyber Security	Bruce Wayne
+Ethan Hunt	null	null
+Fiona Green	null	null
+
+-- Bonus Challenge
+Query #1 Execution time: 0.31ms
+student_name	course_name
+Alice Johnson	SQL Basics
+Bob Smith	SQL Basics
+Charlie Brown	SQL Basics
+Diana Prince	SQL Basics
+Ethan Hunt	SQL Basics
+Fiona Green	SQL Basics
+Alice Johnson	Python Fundamentals
+Bob Smith	Python Fundamentals
+Charlie Brown	Python Fundamentals
+Diana Prince	Python Fundamentals
+Ethan Hunt	Python Fundamentals
+Fiona Green	Python Fundamentals
+Alice Johnson	Data Analytics
+Bob Smith	Data Analytics
+Charlie Brown	Data Analytics
+Diana Prince	Data Analytics
+Ethan Hunt	Data Analytics
+Fiona Green	Data Analytics
+Alice Johnson	Cloud Computing
+Bob Smith	Cloud Computing
+Charlie Brown	Cloud Computing
+Diana Prince	Cloud Computing
+Ethan Hunt	Cloud Computing
+Fiona Green	Cloud Computing
+Alice Johnson	Machine Learning
+Bob Smith	Machine Learning
+Charlie Brown	Machine Learning
+Diana Prince	Machine Learning
+Ethan Hunt	Machine Learning
+Fiona Green	Machine Learning
+Alice Johnson	Cyber Security
+Bob Smith	Cyber Security
+Charlie Brown	Cyber Security
+Diana Prince	Cyber Security
+Ethan Hunt	Cyber Security
+Fiona Green	Cyber Security
