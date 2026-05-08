@@ -1,4 +1,4 @@
---Group By Quries
+--Group By Queries
 --Q21
 select department_id,sum(salary) from Employee group  by department_id;
 --Q22
