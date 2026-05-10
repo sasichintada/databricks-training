@@ -1,4 +1,4 @@
-# Week 1 - Day 5 SQL CTEs and Advanced Window Functions Assignment
+# Week 1 - Day 6 SQL CTEs and Advanced Window Functions Assignment
 
 ## 📌 Concepts Explored
 
