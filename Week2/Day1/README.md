@@ -62,7 +62,7 @@ The assignment includes beginner to intermediate-level SQL problems involving jo
 | ------------- | ---------------------------------- |
 | `schema.sql`  | Database schema and sample records |
 | `queries.sql` | SQL query solutions                |
-| `results.txt` | Output screenshots/text results    |
+| `output.txt` | text results    |
 | `README.md`   | Project documentation              |
 
 ---
