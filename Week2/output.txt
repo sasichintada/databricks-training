@@ -1,0 +1,237 @@
+--1
+Query #1 Execution time: 0.58ms
+student_name	department_name
+John Doe	Computer Science
+Mary Jane	Computer Science
+Steve Rogers	Mechanical
+Natasha Romanoff	Mechanical
+Bruce Wayne	Electronics
+Clark Kent	Electronics
+Diana Prince	Civil
+Peter Parker	Civil
+Tony Stark	Computer Science
+Wanda Maximoff	Mathematics
+Barry Allen	Mathematics
+NULL	NULL
+Scott Lang	NULL
+Jean Grey	NULL
+Logan Howlett	Biotechnology
+
+
+--2
+Query #1 Execution time: 0.52ms
+staff_name	department_name
+Alice Johnson	Computer Science
+Bob Smith	Computer Science
+Charlie Brown	Mechanical
+David Lee	Mechanical
+Eva Green	Electronics
+Frank Hall	Electronics
+Grace Miller	Civil
+NULL	NULL
+Henry Ford	Mathematics
+Ivy Clark	NULL
+
+
+--3
+Query #1 Execution time: 0.41ms
+department_name
+NULL
+
+
+--4
+Query #1 Execution time: 0.39ms
+student_name
+Scott Lang
+
+
+--5
+Query #1 Execution time: 0.36ms
+subject_name
+NULL
+
+
+--6
+Query #1 Execution time: 0.67ms
+department_name	avg_cgpa
+NULL	8.80
+Biotechnology	7.70
+Civil	8.40
+Computer Science	9.20
+Electronics	8.20
+Mathematics	6.85
+Mechanical	7.75
+
+
+--7
+Query #1 Execution time: 0.61ms
+department_name	avg_cgpa
+NULL	8.80
+Civil	8.40
+Computer Science	9.20
+Electronics	8.20
+
+
+--8
+Query #1 Execution time: 0.64ms
+department_name	total_students
+NULL	1
+Biotechnology	1
+Civil	2
+Computer Science	3
+Electronics	2
+Mathematics	2
+Mechanical	2
+
+
+--9
+Query #1 Execution time: 0.74ms
+subject_name	highest_marks	lowest_marks
+NULL	73	73
+Artificial Intelligence	97	44
+Database Systems	99	88
+Digital Electronics	98	54
+Linear Algebra	90	65
+Machine Design	81	66
+Operating Systems	89	75
+Signals and Systems	94	61
+Structural Engineering	87	87
+Thermodynamics	72	72
+
+
+--10
+Query #1 Execution time: 0.55ms
+student_name	marks
+John Doe	91
+Mary Jane	95
+Bruce Wayne	98
+Bruce Wayne	94
+Tony Stark	99
+Tony Stark	97
+
+
+--11
+Query #1 Execution time: 0.44ms
+student_name
+John Doe
+Mary Jane
+Tony Stark
+
+
+--12
+Query #1 Execution time: 0.59ms
+staff_name	total_subjects
+NULL	0
+Alice Johnson	2
+Bob Smith	1
+Charlie Brown	1
+David Lee	1
+Eva Green	1
+Frank Hall	1
+Grace Miller	1
+Henry Ford	1
+Ivy Clark	0
+
+
+--13
+Query #1 Execution time: 0.71ms
+student_name	total_marks
+NULL	NULL
+Barry Allen	65
+Bruce Wayne	192
+Clark Kent	115
+Diana Prince	87
+Jean Grey	90
+John Doe	254
+Logan Howlett	73
+Mary Jane	184
+Natasha Romanoff	81
+Peter Parker	NULL
+Scott Lang	44
+Steve Rogers	138
+Tony Stark	196
+Wanda Maximoff	71
+
+
+--14
+Query #1 Execution time: 0.49ms
+department_name	total_staff
+Computer Science	2
+Mechanical	2
+Electronics	2
+
+
+--15
+Query #1 Execution time: 0.46ms
+student_name	cgpa
+John Doe	8.7
+Mary Jane	9.1
+Bruce Wayne	9.5
+Tony Stark	9.8
+Jean Grey	8.8
+
+
+--16
+Query #1 Execution time: 0.57ms
+staff_name	salary	department_id
+Alice Johnson	95000	1
+Charlie Brown	91000	2
+Eva Green	99000	3
+
+
+--17
+Query #1 Execution time: 0.42ms
+second_highest_salary
+99000
+
+
+--18
+Query #1 Execution time: 0.73ms
+student_name	subject_name	marks
+Tony Stark	Database Systems	99
+Mary Jane	Operating Systems	89
+Natasha Romanoff	Machine Design	81
+Steve Rogers	Thermodynamics	72
+Bruce Wayne	Digital Electronics	98
+Bruce Wayne	Signals and Systems	94
+Diana Prince	Structural Engineering	87
+Jean Grey	Linear Algebra	90
+Logan Howlett	NULL	73
+Tony Stark	Artificial Intelligence	97
+
+
+--19
+Query #1 Execution time: 0.82ms
+student_name	subject_id	marks
+John Doe	201	88
+John Doe	201	91
+John Doe	202	75
+Mary Jane	201	95
+Mary Jane	202	89
+Steve Rogers	203	66
+Steve Rogers	204	72
+Natasha Romanoff	203	81
+Bruce Wayne	205	98
+Bruce Wayne	206	94
+Clark Kent	205	54
+Clark Kent	206	61
+Diana Prince	207	87
+Peter Parker	207	NULL
+Tony Stark	201	99
+Tony Stark	210	97
+Wanda Maximoff	208	71
+Barry Allen	208	65
+NULL	209	NULL
+Scott Lang	210	44
+Jean Grey	208	90
+Logan Howlett	209	73
+
+
+--20
+Query #1 Execution time: 0.63ms
+subject_name	avg_marks
+Artificial Intelligence	70.5
+Digital Electronics	76
+Linear Algebra	75.33
+Machine Design	73.5
+Signals and Systems	77.5
