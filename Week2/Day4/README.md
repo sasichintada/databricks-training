@@ -162,12 +162,12 @@ INSERT INTO orders VALUES
 
 After completing this assignment, you can:
 
-✅ Work with MySQL date/time functions
-✅ Extract and transform date components
-✅ Perform time-based calculations
-✅ Build financial and business logic queries
-✅ Format data for reporting systems
-✅ Handle real-world order datasets
+* ✅ Work with MySQL date/time functions
+* ✅ Extract and transform date components
+* ✅ Perform time-based calculations
+* ✅ Build financial and business logic queries
+* ✅ Format data for reporting systems
+* ✅ Handle real-world order datasets
 
 ---
 
