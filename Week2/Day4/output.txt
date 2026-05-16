@@ -1,0 +1,118 @@
+1
+Query #1 Execution time: 0.2ms
+todayDate	currentTime	currentDateTime
+2026-05-16	09:46:13	2026-05-16 09:46:13
+
+2
+Query #1 Execution time: 0.28ms
+order_id	year	month	day
+1	2024	1	15
+2	2024	2	18
+3	2024	3	2
+4	2024	3	9
+5	2024	1	7
+
+3
+Query #1 Execution time: 0.31ms
+order_id	month_name	day_name
+1	January	Monday
+2	February	Sunday
+3	March	Saturday
+4	March	Saturday
+5	January	Sunday
+
+4
+Query #1 Execution time: 0.33ms
+order_id	customer_name	order_date	order_timestamp	delivery_date	order_amount
+2	Veena	2024-02-18	2024-02-18 18:45:20	2024-02-22	3200.5
+3	Ravi	2024-03-02	2024-03-02 09:15:10	2024-03-08	4100.75
+4	Anil	2024-03-09	2024-03-09 14:05:55	2024-03-15	1800.0
+5	Suresh	2024-01-07	2024-01-07 23:55:00	2024-01-12	2900.0
+
+5
+Query #1 Execution time: 0.35ms
+order_id	customer_name	order_date	order_timestamp	delivery_date	order_amount
+1	Karthik	2024-01-15	2024-01-15 10:30:45	2024-01-20	2500.0
+
+6
+Query #1 Execution time: 0.29ms
+order_date	plus_5_days	minus_3_days
+2024-01-15	2024-01-20	2024-01-12
+2024-02-18	2024-02-23	2024-02-15
+2024-03-02	2024-03-07	2024-02-28
+2024-03-09	2024-03-14	2024-03-06
+2024-01-07	2024-01-12	2024-01-04
+
+7
+Query #1 Execution time: 0.33ms
+order_id	delivery_days
+1	5
+2	4
+3	6
+4	6
+5	5
+
+8
+Query #1 Execution time: 0.3ms
+order_id	days_diff	months_diff
+1	5	0
+2	4	0
+3	6	0
+4	6	0
+5	5	0
+
+9
+Query #1 Execution time: 0.28ms
+order_id	last_day_of_month
+1	2024-01-31
+2	2024-02-29
+3	2024-03-31
+4	2024-03-31
+5	2024-01-31
+
+10
+Query #1 Execution time: 0.28ms
+order_id	first_day_of_month
+1	2024-01-01
+2	2024-02-01
+3	2024-03-01
+4	2024-03-01
+5	2024-01-01
+
+11
+Query #1 Execution time: 0.31ms
+order_id	formatted_date
+1	15-01-2024
+2	18-02-2024
+3	02-03-2024
+4	09-03-2024
+5	07-01-2024
+
+12
+Query #1 Execution time: 0.31ms
+order_id	formatted_timestamp
+1	15-01-2024 10:30:45
+2	18-02-2024 18:45:20
+3	02-03-2024 09:15:10
+4	09-03-2024 14:05:55
+5	07-01-2024 23:55:00
+
+13
+Query #1 Execution time: 0.3ms
+order_id	customer_name	order_date	order_timestamp	delivery_date	order_amount
+1	Karthik	2024-01-15	2024-01-15 10:30:45	2024-01-20	2500.0
+5	Suresh	2024-01-07	2024-01-07 23:55:00	2024-01-12	2900.0
+
+14
+Query #1 Execution time: 0.35ms
+order_id	customer_name	order_date	order_timestamp	delivery_date	order_amount
+There are no results to be displayed.
+
+15
+Query #1 Execution time: 0.39ms
+order_id	order_date	financial_year
+1	2024-01-15	2023-2024
+2	2024-02-18	2023-2024
+3	2024-03-02	2023-2024
+4	2024-03-09	2023-2024
+5	2024-01-07	2023-2024
