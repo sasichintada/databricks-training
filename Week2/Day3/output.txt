@@ -1,0 +1,76 @@
+---1
+Query #1 Execution time: 0.68ms
+emp_name	upper_name	lower_name	initcap_name	total_income	joining_year	employee_level
+karthik	KARTHIK	karthik	Karthik	80001	2019	Mid
+veena	VEENA	veena	Veena	69001	2021	Mid
+ravi	RAVI	ravi	Ravi	91002	2016	Senior
+anil	ANIL	anil	Anil	70000	2020	Mid
+suresh	SURESH	suresh	Suresh	63001	2022	Junior
+
+---2
+Query #1 Execution time: 0.31ms
+customer_name	delivery_days	final_delivery_date	amount	status
+RAJESH	4	2025-01-05	12500.7	Delayed
+MEENA	0	2025-01-10	8400.4	Same-day
+ARUN	5	2025-01-20	15600.9	Delayed
+POOJA	483	2026-05-16	9200.1	Pending
+
+---3
+Query #1 Execution time: 0.6ms
+customer_name	month_name	rounded_amount	absolute_amount	spender_type
+Amit	December	12001	12000.75	Medium
+Neha	December	8500	8500.4	Medium
+Rohit	November	15501	15500.9	High spender
+Kavya	October	6000	6000.1	Low
+
+---4
+Query #1 Execution time: 0.33ms
+domain_name	months	fee	remaining_days	status
+gmail.com	12	12,000.50	-500	Expired
+yahoo.com	6	8,500.75	-517	Expired
+hotmail.com	12	15,000.90	-806	Expired
+
+
+---5
+Query #1 Execution time: 0.35ms
+customer_name	monthly_interest	years	emi	risk_type
+SURESH	1.0068214933385833	4	3542	Medium Risk
+MAHESH	1.0073612011574025	4	5750	High Risk
+ANITA	1.0062785842100341	2	1950	Low Risk
+
+---6
+Query #1 Execution time: 0.48ms
+emp_name	attendance_percentage	month_name	absent_days	attendance_status
+karthik	93	January	2	Excellent
+veena	73	January	8	Poor
+ravi	60	January	12	Poor
+
+---7
+Query #1 Execution time: 7.63ms
+product_name	discount_amount	discount_percentage	sale_day	status
+Laptop	7000.25	9.33	Friday	Valid Discount
+Mobile	2000.15	5.71	Sunday	Valid Discount
+Tablet	999.85	-4.0	Wednesday	Overpriced
+
+
+---8
+Query #1 Execution time: 0.5ms
+holder_name	policy_years	remaining_days	premium	policy_status
+ARJUN	3	-135	12001	Expired
+MEGHA	3	-335	8501	Expired
+VINOD	3	-806	15001	Expired
+
+---9
+Query #1 Execution time: 3.86ms
+emp_name	years	increment_amount	new_salary	increment_status
+karthik	3	15000.15	90001	High Increment
+veena	2	6500.04	71500	Moderate
+ravi	4	0	85001	No Increment
+
+---10
+Query #1 Execution time: 0.4ms
+absolute_balance	days	branch_name	balance_sign	account_status
+125000.75	512	Hyderabad	1	Dormant
+8500.4	1066	Delhi	1	Dormant
+2500.9	496	Mumbai	-1	Overdrawn
+
