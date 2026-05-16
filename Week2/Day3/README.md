@@ -235,14 +235,14 @@ Examples:
 
 After completing this assignment, gained practical experience in:
 
-✅ Writing complex SQL analytical queries
-✅ Handling NULL values effectively
-✅ Performing real-world financial calculations
-✅ Building CASE-based classification systems
-✅ Working with dates and time functions
-✅ Designing business logic using SQL
-✅ Improving logical reasoning using queries
-✅ Handling multi-domain datasets
+* ✅ Writing complex SQL analytical queries
+* ✅ Handling NULL values effectively
+* ✅ Performing real-world financial calculations
+* ✅ Building CASE-based classification systems
+* ✅ Working with dates and time functions
+* ✅ Designing business logic using SQL
+* ✅ Improving logical reasoning using queries
+* ✅ Handling multi-domain datasets
 
 ---
 
