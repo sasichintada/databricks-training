@@ -1,0 +1,227 @@
+1. Query #1 Execution time: 0.29ms
+emp_id	name	salary	bonus	manager_id
+2	John	null	5000	102
+4	David	null	null	103
+6	Kiran	null	null	null
+8	Neha	null	2000	null
+
+
+2. Query #2 Execution time: 0.12ms
+order_id	customer_name	amount	discount	coupon_code
+102	John	null	50	null
+105	Priya	1500	100	null
+108	Neha	null	200	DISC15
+
+
+3. Query #3 Execution time: 0.09ms
+product_id	product_name	price	category	stock
+3	Tablet	30000	null	5
+4	Headphones	null	null	null
+7	Mouse	500	null	null
+
+
+4. Query #4 Execution time: 0.11ms
+null_managers
+3
+
+
+5. Query #5 Execution time: 0.12ms
+emp_id	salary
+1	50000
+2	0
+3	60000
+4	0
+5	45000
+6	0
+7	70000
+8	0
+
+
+6. Query #6 Execution time: 0.07ms
+emp_id	bonus
+1	1000
+2	5000
+3	1000
+4	1000
+5	3000
+6	1000
+7	7000
+8	2000
+
+7. Query #7 Execution time: 0.07ms
+order_id	amount
+101	1000
+102	500
+103	2000
+104	500
+105	1500
+106	500
+107	3000
+108	500
+
+
+8. Query #8 Execution time: 0.07ms
+product_id	stock
+1	10
+2	0
+3	5
+4	0
+5	0
+6	15
+7	0
+8	3
+
+
+9. Query #9 Execution time: 0.07ms
+emp_id	earnings
+1	50000
+2	5000
+3	60000
+4	null
+5	45000
+6	null
+7	70000
+8	2000
+
+
+10. Query #10 Execution time: 0.06ms
+emp_id	total_income
+1	50000
+2	5000
+3	60000
+4	0
+5	45000
+6	0
+7	70000
+8	2000
+
+
+11. Query #11 Execution time: 0.06ms
+product_id	price
+1	50000
+2	1000
+3	30000
+4	1000
+5	20000
+6	1000
+7	500
+8	1000
+
+
+12. Query #12 Execution time: 0.07ms
+customer_name	payment
+Amit	1000
+John	50
+Sara	2000
+David	0
+Priya	1500
+Kiran	0
+Ravi	3000
+Neha	200
+
+
+13. Query #13 Execution time: 0.08ms
+emp_id	salary
+1	50000
+2	null
+3	60000
+4	null
+5	45000
+6	null
+7	70000
+8	null
+
+
+14. Query #14 Execution time: 0.06ms
+order_id	discount
+101	null
+102	50
+103	null
+104	null
+105	100
+106	null
+107	null
+108	200
+
+
+15. Query #15 Execution time: 0.08ms
+order_id	safe_division
+101	null
+102	null
+103	null
+104	null
+105	15.0
+106	null
+107	null
+108	null
+
+
+16. Query #16 Execution time: 0.07ms
+order_id	coupon
+101	null
+102	null
+103	DISC20
+104	null
+105	null
+106	DISC5
+107	null
+108	DISC15
+
+
+17. Query #17 Execution time: 0.07ms
+emp_id	total_earnings
+1	50000
+2	5000
+3	60000
+4	0
+5	48000
+6	0
+7	77000
+8	2000
+
+
+18.  Query #18 Execution time: 0.08ms
+emp_id	name	salary	bonus	manager_id
+4	David	null	null	103
+6	Kiran	null	null	null
+
+19. Query #19 Execution time: 0.08ms
+product_id	product_name	price	category	stock
+2	Phone	null	Electronics	null
+6	Keyboard	null	Accessories	15
+8	Printer	null	Electronics	3
+
+
+20. Query #20 Execution time: 0.07ms
+order_id	customer_name	amount	discount	coupon_code
+104	David	null	null	null
+106	Kiran	null	null	DISC5
+
+21.  Query #21 Execution time: 0.07ms
+emp_id	income
+1	50000
+2	5000
+3	60000
+4	1000
+5	45000
+6	1000
+7	70000
+8	2000
+
+
+22. Query #22 Execution time: 0.07ms
+order_id	final_amount
+101	1000
+102	null
+103	2000
+104	null
+105	1400
+106	null
+107	3000
+108	null
+
+
+23. Query #23 Execution time: 0.07ms
+emp_id
+2
+4
