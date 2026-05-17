@@ -88,24 +88,25 @@ This assignment includes **advanced SQL problem-solving tasks using multiple bus
 
 ---
 
-## 🛠️ Tools & Environment
+# 🛠️ Tools & Environment
 
-| Tool               | Purpose            |
-| ------------------ | ------------------ |
-| MySQL              | Database execution |
-| DB Fiddle          | Query testing      |
-| OneCompiler        | Practice platform  |
-| SQL Online Editors | Debugging          |
+| Tool       | Purpose                         |
+| ---------- | ------------------------------- |
+| MySQL | Database Management             |
+| DB Fiddle  | Query Testing & Execution       |
+| GitHub     | Version Control & Documentation |
+
 
 ---
 
-## 📁 Files Included
+# 📁 Files Included
 
-| File        | Description                      |
-| ----------- | -------------------------------- |
-| schema.sql  | All table creation + sample data |
-| queries.sql | All SQL solutions                |
-| README.md   | Assignment documentation         |
+| File          | Description                        |
+| ------------- | ---------------------------------- |
+| `schema.sql`  | Database schema and sample records |
+| `queries.sql` | SQL query solutions                |
+| `output.txt`  | Query outputs                      |
+| `README.md`   | Project documentation              |
 
 ---
 
