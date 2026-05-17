@@ -137,15 +137,17 @@ INSERT INTO orders VALUES
 
 ---
 
-## 🛠️ Tools Used
+# 🛠️ Tools & Environment
 
-| Tool       | Purpose              |
-| ---------- | -------------------- |
-| MySQL      | Query execution      |
-| DB Fiddle  | Online testing       |
-| SQL Editor | Practice environment |
+| Tool       | Purpose                         |
+| ---------- | ------------------------------- |
+| MySQL | Database Management             |
+| DB Fiddle  | Query Testing & Execution       |
+| GitHub     | Version Control & Documentation |
+
 
 ---
+
 # 📁 Files Included
 
 | File          | Description                        |
