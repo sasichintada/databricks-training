@@ -146,6 +146,16 @@ INSERT INTO orders VALUES
 | SQL Editor | Practice environment |
 
 ---
+# 📁 Files Included
+
+| File          | Description                        |
+| ------------- | ---------------------------------- |
+| `schema.sql`  | Database schema and sample records |
+| `queries.sql` | SQL query solutions                |
+| `output.txt`  | Query outputs                      |
+| `README.md`   | Project documentation              |
+
+---
 
 ## 📈 Skills Gained
 
