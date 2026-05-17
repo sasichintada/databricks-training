@@ -185,15 +185,17 @@ Used to relate a table to itself.
 
 ---
 
-## 🛠️ Tools Used
+# 🛠️ Tools & Environment
 
-| Tool       | Purpose         |
-| ---------- | --------------- |
-| MySQL      | Query execution |
-| DB Fiddle  | Online testing  |
-| SQL Editor | Practice        |
+| Tool       | Purpose                         |
+| ---------- | ------------------------------- |
+| MySQL | Database Management             |
+| DB Fiddle  | Query Testing & Execution       |
+| GitHub     | Version Control & Documentation |
+
 
 ---
+
 # 📁 Files Included
 
 | File          | Description                        |
