@@ -76,7 +76,7 @@ The assignment includes intermediate to advanced-level SQL problems involving:
 
 | Tool       | Purpose                         |
 | ---------- | ------------------------------- |
-| PostgreSQL | Database Management             |
+| MySQL | Database Management             |
 | DB Fiddle  | Query Testing & Execution       |
 | GitHub     | Version Control & Documentation |
 
