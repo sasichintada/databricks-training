@@ -1,0 +1,301 @@
+1. Query #1 Execution time: 0.31ms
+emp_name	manager
+Karthik	null
+Ajay	Karthik
+Vijay	Karthik
+Vinay	Ajay
+Meena	Vijay
+Veer	null
+Keerthi	Vinay
+Priya	Vinay
+
+2. Query #2 Execution time: 0.14ms
+emp_name	dept_name
+Karthik	HR
+Ajay	HR
+Vijay	IT
+Vinay	IT
+Meena	Finance
+Veer	Marketing
+Keerthi	Sales
+Priya	Sales
+
+3. Query #3 Execution time: 0.11ms
+emp_name	manager
+Ajay	Karthik
+Vijay	Karthik
+Vinay	Ajay
+Meena	Vijay
+Keerthi	Vinay
+Priya	Vinay
+
+4. Query #4 Execution time: 0.22ms
+dept_name	total
+HR	2
+IT	2
+Finance	1
+Marketing	1
+Sales	2
+
+5. Query #5 Execution time: 0.09ms
+emp_name
+There are no results to be displayed.
+
+6. Query #6 Execution time: 0.11ms
+emp_name	project_name
+Karthik	Project A
+Ajay	Project B
+Vijay	Project C
+Vinay	Project D
+Meena	Project E
+Veer	null
+Keerthi	null
+Priya	null
+
+7. Query #7 Execution time: 1.22ms
+emp_name	project_name
+Karthik	Project A
+Ajay	Project B
+Vijay	Project C
+Vinay	Project D
+Meena	Project E
+
+8. Query #8 Execution time: 0.2ms
+emp_name	project_name
+Karthik	Project A
+Ajay	Project B
+Vijay	Project C
+Vinay	Project D
+Meena	Project E 
+
+9. Query #9 Execution time: 0.09ms
+emp_name	salary
+Karthik	null
+Ajay	null
+Vijay	null
+Vinay	null
+Meena	null
+Veer	null
+Keerthi	null
+Priya	null
+
+10. Query #10 Execution time: 0.1ms
+emp_name	dept_name
+Karthik	HR
+Ajay	HR
+Vijay	IT
+Vinay	IT
+Meena	Finance
+Veer	Marketing
+Keerthi	Sales
+Priya	Sales
+
+11. Query #11 Execution time: 0.11ms
+dept_name	emp_name
+HR	Ajay
+HR	Karthik
+IT	Vinay
+IT	Vijay
+Finance	Meena
+Marketing	Veer
+Sales	Priya
+Sales	Keerthi
+
+12. Query #12 Execution time: 0.07ms
+emp_name	contact
+Karthik	null
+Ajay	null
+Vijay	null
+Vinay	null
+Meena	null
+Veer	null
+Keerthi	null
+Priya	null
+
+13. Query #13 Execution time: 0.27ms
+emp_name	dept_name
+Karthik	HR
+Ajay	HR
+Vijay	IT
+Vinay	IT
+Meena	Finance
+Veer	Marketing
+Keerthi	Sales
+Priya	Sales
+
+14
+Query #14 Execution time: 0.13ms
+emp_name
+Veer
+Keerthi
+Priya
+
+15
+Query #15 Execution time: 0.14ms
+emp_name	project_name
+Karthik	Project A
+Ajay	Project B
+Vijay	Project C
+Vinay	Project D
+Meena	Project E
+Veer	null
+Keerthi	null
+Priya	null
+
+16
+Query #16 Execution time: 0.16ms
+project_name	emp_name
+Project A	Karthik
+Project B	Ajay
+Project C	Vijay
+Project D	Vinay
+Project E	Meena
+
+17
+Query #17 Execution time: 0.14ms
+emp_name	manager	project_name
+Ajay	Karthik	Project B
+Vijay	Karthik	Project C
+Vinay	Ajay	Project D
+Meena	Vijay	Project E
+
+18
+Query #18 Execution time: 0.1ms
+emp_name	dept_name
+Karthik	HR
+Ajay	HR
+Vijay	IT
+Vinay	IT
+Meena	Finance
+Veer	Marketing
+Keerthi	Sales
+Priya	Sales
+
+19
+Query #19 Execution time: 0.09ms
+emp_name	dept_name
+Karthik	HR
+Ajay	HR
+Vijay	IT
+Vinay	IT
+Meena	Finance
+Veer	Marketing
+Keerthi	Sales
+Priya	Sales
+
+20
+Query #20 Execution time: 0.09ms
+dept_name	emp_name
+HR	Ajay
+HR	Karthik
+IT	Vinay
+IT	Vijay
+Finance	Meena
+Marketing	Veer
+Sales	Priya
+Sales	Keerthi
+
+21
+Query #21 Execution time: 0.09ms
+emp_name	project_name
+There are no results to be displayed.
+
+22
+Query #22 Execution time: 0.14ms
+dept_name	COUNT(e.emp_id)
+HR	2
+IT	2
+Finance	1
+Marketing	1
+Sales	2
+
+23
+Query #23 Execution time: 0.1ms
+emp_name	manager
+Ajay	Karthik
+Vijay	Karthik
+Vinay	Ajay
+Meena	Vijay
+Keerthi	Vinay
+Priya	Vinay
+
+24
+Query #24 Execution time: 0.11ms
+emp_name	emp_name
+Karthik	null
+Ajay	Karthik
+Vijay	Karthik
+Vinay	Ajay
+Meena	Vijay
+Veer	null
+Keerthi	Vinay
+Priya	Vinay
+
+25
+Query #25 Execution time: 11.45ms
+dept_name	COUNT(e.emp_id)
+HR	2
+IT	2
+Finance	1
+Marketing	1
+Sales	2
+
+26
+Query #26 Execution time: 0.2ms
+dept_name	emp_name
+HR	Ajay
+HR	Karthik
+IT	Vinay
+IT	Vijay
+Finance	Meena
+Marketing	Veer
+Sales	Priya
+Sales	Keerthi
+
+27
+Query #27 Execution time: 0.19ms
+emp_name
+Karthik
+Ajay
+Vijay
+Vinay
+Meena
+Veer
+Keerthi
+Priya
+
+28
+Query #28 Execution time: 0.17ms
+emp_name	project_name
+Karthik	Project A
+Ajay	Project B
+Vijay	Project C
+Vinay	Project D
+Meena	Project E
+Veer	null
+Keerthi	null
+Priya	null
+
+29
+Query #29 Execution time: 0.15ms
+emp_name	dept_name	project_name
+Karthik	HR	Project A
+Ajay	HR	Project B
+Vijay	IT	Project C
+Vinay	IT	Project D
+Meena	Finance	Project E
+Veer	Marketing	null
+Keerthi	Sales	null
+Priya	Sales	null
+
+30
+Query #30 Execution time: 0.11ms
+emp_name	dept_name
+Karthik	HR
+Ajay	HR
+Vijay	IT
+Vinay	IT
+Meena	Finance
+Veer	Marketing
+Keerthi	Sales
+Priya	Sales
