@@ -1,0 +1,101 @@
+1. Query #1 Execution time: 0.2ms
+absolute_value
+100
+
+2. Query #2 Execution time: 1.26ms
+emp_name	rounded_salary
+Karthik	75001
+Veena	65000
+Ravi	85001
+Anil	70000
+Suresh	60001
+
+3. Query #3 Execution time: 0.14ms
+emp_name	rounded_2dec
+Karthik	75000.75
+Veena	65000.4
+Ravi	85000.9
+Anil	70000.1
+Suresh	60000.55
+
+4. Query #4 Execution time: 0.09ms
+emp_name	ceil_salary
+Karthik	75001
+Veena	65001
+Ravi	85001
+Anil	70001
+Suresh	60001
+
+5. Query #5 Execution time: 0.07ms
+emp_name	floor_salary
+Karthik	75000
+Veena	65000
+Ravi	85000
+Anil	70000
+Suresh	60000
+
+
+6. Query #6 Execution time: 0.07ms
+emp_name	truncated_salary
+Karthik	75000.7
+Veena	65000.4
+Ravi	85000.9
+Anil	70000.1
+Suresh	60000.5
+
+
+7. Query #7 Execution time: 14.04ms
+emp_name	mod_value
+Karthik	0
+Veena	0
+Ravi	0
+Anil	1
+Suresh	1
+
+8. Query #8 Execution time: 0.12ms
+power_result
+8
+
+9. Query #9 Execution time: 0.05ms
+pow_result
+25
+
+10. Query #10 Execution time: 0.04ms
+square_root
+8
+
+11. Query #11 Execution time: 0.09ms
+emp_name	sign_value
+Karthik	1
+Veena	1
+Ravi	1
+Anil	1
+Suresh	1
+
+12. Query #12 Execution time: 0.06ms
+random_value
+0.40388372950617574
+
+13. Query #13 Execution time: 0.09ms
+emp_name	formatted_salary
+Karthik	75,000.75
+Veena	65,000.40
+Ravi	85,000.90
+Anil	70,000.10
+Suresh	60,000.55
+
+14. Query #14 Execution time: 0.09ms
+emp_name	highest_value
+Karthik	75000.75
+Veena	65000.4
+Ravi	85000.9
+Anil	70000.1
+Suresh	60000.55
+
+15. Query #15 Execution time: 0.07ms
+emp_name	lowest_value
+Karthik	5000.5
+Veena	4000.25
+Ravi	6000.75
+Anil	0.0
+Suresh	3000.3
