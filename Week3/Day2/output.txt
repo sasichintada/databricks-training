@@ -1,0 +1,471 @@
+1. Query #1 Execution time: 0.37ms
+emp_name	salary	rn
+Sneha	3000	1
+Vikas	3000	2
+Suresh	2800	3
+Raj	2700	4
+Nisha	2600	5
+Rahul	2600	6
+Kiran	2500	7
+Deepak	2500	8
+Manoj	2400	9
+Meena	2300	10
+Neha	2200	11
+Divya	2100	12
+Priya	2000	13
+Simran	2000	14
+Amit	2000	15
+Karthik	1900	16
+Arjun	1800	17
+Anjali	1700	18
+Pooja	1600	19
+Ravi	1500	20
+
+2. Query #2 Execution time: 0.22ms
+emp_name	department	salary	rn
+Rahul	Finance	2600	1
+Kiran	Finance	2500	2
+Deepak	Finance	2500	3
+Manoj	Finance	2400	4
+Meena	Finance	2300	5
+Neha	Finance	2200	6
+Simran	HR	2000	1
+Karthik	HR	1900	2
+Arjun	HR	1800	3
+Anjali	HR	1700	4
+Pooja	HR	1600	5
+Ravi	HR	1500	6
+Sneha	IT	3000	1
+Vikas	IT	3000	2
+Suresh	IT	2800	3
+Raj	IT	2700	4
+Nisha	IT	2600	5
+Divya	IT	2100	6
+Amit	IT	2000	7
+Priya	IT	2000	8
+
+3. Query #3 Execution time: 0.17ms
+emp_name	join_date	rn
+Nisha	2023-01-20	1
+Deepak	2023-01-19	2
+Simran	2023-01-18	3
+Raj	2023-01-17	4
+Meena	2023-01-16	5
+Karthik	2023-01-15	6
+Divya	2023-01-14	7
+Manoj	2023-01-13	8
+Pooja	2023-01-12	9
+Suresh	2023-01-11	10
+Rahul	2023-01-10	11
+Anjali	2023-01-09	12
+Vikas	2023-01-08	13
+Neha	2023-01-07	14
+Arjun	2023-01-06	15
+Priya	2023-01-05	16
+Kiran	2023-01-04	17
+Sneha	2023-01-03	18
+Ravi	2023-01-02	19
+Amit	2023-01-01	20
+
+4. Query #4 Execution time: 0.18ms
+emp_name	department	join_date	rn
+Kiran	Finance	2023-01-04	1
+Neha	Finance	2023-01-07	2
+Rahul	Finance	2023-01-10	3
+Manoj	Finance	2023-01-13	4
+Meena	Finance	2023-01-16	5
+Deepak	Finance	2023-01-19	6
+Ravi	HR	2023-01-02	1
+Arjun	HR	2023-01-06	2
+Anjali	HR	2023-01-09	3
+Pooja	HR	2023-01-12	4
+Karthik	HR	2023-01-15	5
+Simran	HR	2023-01-18	6
+Amit	IT	2023-01-01	1
+Sneha	IT	2023-01-03	2
+Priya	IT	2023-01-05	3
+Vikas	IT	2023-01-08	4
+Suresh	IT	2023-01-11	5
+Divya	IT	2023-01-14	6
+Raj	IT	2023-01-17	7
+Nisha	IT	2023-01-20	8
+
+5. Query #5 Execution time: 0.14ms
+order_id	order_date	rn
+101	2023-01-01	1
+102	2023-01-02	2
+103	2023-01-03	3
+104	2023-01-04	4
+105	2023-01-05	5
+106	2023-01-06	6
+107	2023-01-07	7
+108	2023-01-08	8
+109	2023-01-09	9
+110	2023-01-10	10
+
+6. Query #6 Execution time: 0.15ms
+city	order_amount	rn
+Bangalore	2600	1
+Bangalore	2500	2
+Bangalore	2200	3
+Chennai	3000	1
+Chennai	3000	2
+Chennai	2000	3
+Chennai	1000	4
+Hyderabad	1800	1
+Hyderabad	1700	2
+Hyderabad	1500	3
+
+7. Query #7 Execution time: 0.15ms
+emp_name	salary	rn
+Ravi	1500	1
+Pooja	1600	2
+Anjali	1700	3
+Arjun	1800	4
+Karthik	1900	5
+Amit	2000	6
+Priya	2000	7
+Simran	2000	8
+Divya	2100	9
+Neha	2200	10
+Meena	2300	11
+Manoj	2400	12
+Kiran	2500	13
+Deepak	2500	14
+Nisha	2600	15
+Rahul	2600	16
+Raj	2700	17
+Suresh	2800	18
+Vikas	3000	19
+Sneha	3000	20
+
+8. Query #8 Execution time: 0.16ms
+emp_name	department	rn
+Deepak	Finance	1
+Kiran	Finance	2
+Manoj	Finance	3
+Meena	Finance	4
+Neha	Finance	5
+Rahul	Finance	6
+Anjali	HR	1
+Arjun	HR	2
+Karthik	HR	3
+Pooja	HR	4
+Ravi	HR	5
+Simran	HR	6
+Amit	IT	1
+Divya	IT	2
+Nisha	IT	3
+Priya	IT	4
+Raj	IT	5
+Sneha	IT	6
+Suresh	IT	7
+Vikas	IT	8
+
+9. Query #9 Execution time: 0.14ms
+emp_name	salary	rnk
+Sneha	3000	1
+Vikas	3000	1
+Suresh	2800	3
+Raj	2700	4
+Nisha	2600	5
+Rahul	2600	5
+Kiran	2500	7
+Deepak	2500	7
+Manoj	2400	9
+Meena	2300	10
+Neha	2200	11
+Divya	2100	12
+Priya	2000	13
+Simran	2000	13
+Amit	2000	13
+Karthik	1900	16
+Arjun	1800	17
+Anjali	1700	18
+Pooja	1600	19
+Ravi	1500	20
+
+10. Query #10 Execution time: 0.18ms
+emp_name	department	salary	rnk
+Rahul	Finance	2600	1
+Kiran	Finance	2500	2
+Deepak	Finance	2500	2
+Manoj	Finance	2400	4
+Meena	Finance	2300	5
+Neha	Finance	2200	6
+Simran	HR	2000	1
+Karthik	HR	1900	2
+Arjun	HR	1800	3
+Anjali	HR	1700	4
+Pooja	HR	1600	5
+Ravi	HR	1500	6
+Sneha	IT	3000	1
+Vikas	IT	3000	1
+Suresh	IT	2800	3
+Raj	IT	2700	4
+Nisha	IT	2600	5
+Divya	IT	2100	6
+Amit	IT	2000	7
+Priya	IT	2000	7
+
+11. Query #11 Execution time: 0.15ms
+emp_name	join_date	rnk
+Nisha	2023-01-20	1
+Deepak	2023-01-19	2
+Simran	2023-01-18	3
+Raj	2023-01-17	4
+Meena	2023-01-16	5
+Karthik	2023-01-15	6
+Divya	2023-01-14	7
+Manoj	2023-01-13	8
+Pooja	2023-01-12	9
+Suresh	2023-01-11	10
+Rahul	2023-01-10	11
+Anjali	2023-01-09	12
+Vikas	2023-01-08	13
+Neha	2023-01-07	14
+Arjun	2023-01-06	15
+Priya	2023-01-05	16
+Kiran	2023-01-04	17
+Sneha	2023-01-03	18
+Ravi	2023-01-02	19
+Amit	2023-01-01	20
+
+12. Query #12 Execution time: 0.12ms
+order_id	order_amount	rnk
+103	3000	1
+108	3000	1
+110	2600	3
+104	2500	4
+107	2200	5
+105	2000	6
+106	1800	7
+109	1700	8
+102	1500	9
+101	1000	10
+
+13. Query #13 Execution time: 0.13ms
+city	order_amount	rnk
+Bangalore	2600	1
+Bangalore	2500	2
+Bangalore	2200	3
+Chennai	3000	1
+Chennai	3000	1
+Chennai	2000	3
+Chennai	1000	4
+Hyderabad	1800	1
+Hyderabad	1700	2
+Hyderabad	1500	3
+
+14. Query #14 Execution time: 0.16ms
+emp_name	department	salary	rnk
+Neha	Finance	2200	1
+Meena	Finance	2300	2
+Manoj	Finance	2400	3
+Kiran	Finance	2500	4
+Deepak	Finance	2500	4
+Rahul	Finance	2600	6
+Ravi	HR	1500	1
+Pooja	HR	1600	2
+Anjali	HR	1700	3
+Arjun	HR	1800	4
+Karthik	HR	1900	5
+Simran	HR	2000	6
+Amit	IT	2000	1
+Priya	IT	2000	1
+Divya	IT	2100	3
+Nisha	IT	2600	4
+Raj	IT	2700	5
+Suresh	IT	2800	6
+Vikas	IT	3000	7
+Sneha	IT	3000	7
+
+15. Query #15 Execution time: 0.14ms
+emp_name	rnk
+Amit	1
+Anjali	2
+Arjun	3
+Deepak	4
+Divya	5
+Karthik	6
+Kiran	7
+Manoj	8
+Meena	9
+Neha	10
+Nisha	11
+Pooja	12
+Priya	13
+Rahul	14
+Raj	15
+Ravi	16
+Simran	17
+Sneha	18
+Suresh	19
+Vikas	20
+
+16. Query #16 Execution time: 0.13ms
+city	order_date	rnk
+Bangalore	2023-01-04	1
+Bangalore	2023-01-07	2
+Bangalore	2023-01-10	3
+Chennai	2023-01-01	1
+Chennai	2023-01-03	2
+Chennai	2023-01-05	3
+Chennai	2023-01-08	4
+Hyderabad	2023-01-02	1
+Hyderabad	2023-01-06	2
+Hyderabad	2023-01-09	3
+
+17. Query #17 Execution time: 0.15ms
+emp_name	salary	drnk
+Sneha	3000	1
+Vikas	3000	1
+Suresh	2800	2
+Raj	2700	3
+Nisha	2600	4
+Rahul	2600	4
+Kiran	2500	5
+Deepak	2500	5
+Manoj	2400	6
+Meena	2300	7
+Neha	2200	8
+Divya	2100	9
+Priya	2000	10
+Simran	2000	10
+Amit	2000	10
+Karthik	1900	11
+Arjun	1800	12
+Anjali	1700	13
+Pooja	1600	14
+Ravi	1500	15
+
+18. Query #18 Execution time: 0.16ms
+emp_name	department	salary	drnk
+Rahul	Finance	2600	1
+Kiran	Finance	2500	2
+Deepak	Finance	2500	2
+Manoj	Finance	2400	3
+Meena	Finance	2300	4
+Neha	Finance	2200	5
+Simran	HR	2000	1
+Karthik	HR	1900	2
+Arjun	HR	1800	3
+Anjali	HR	1700	4
+Pooja	HR	1600	5
+Ravi	HR	1500	6
+Sneha	IT	3000	1
+Vikas	IT	3000	1
+Suresh	IT	2800	2
+Raj	IT	2700	3
+Nisha	IT	2600	4
+Divya	IT	2100	5
+Amit	IT	2000	6
+Priya	IT	2000	6
+
+19. Query #19 Execution time: 0.14ms
+emp_name	join_date	drnk
+Amit	2023-01-01	1
+Ravi	2023-01-02	2
+Sneha	2023-01-03	3
+Kiran	2023-01-04	4
+Priya	2023-01-05	5
+Arjun	2023-01-06	6
+Neha	2023-01-07	7
+Vikas	2023-01-08	8
+Anjali	2023-01-09	9
+Rahul	2023-01-10	10
+Suresh	2023-01-11	11
+Pooja	2023-01-12	12
+Manoj	2023-01-13	13
+Divya	2023-01-14	14
+Karthik	2023-01-15	15
+Meena	2023-01-16	16
+Raj	2023-01-17	17
+Simran	2023-01-18	18
+Deepak	2023-01-19	19
+Nisha	2023-01-20	20
+
+20. Query #20 Execution time: 0.12ms
+order_id	order_amount	drnk
+103	3000	1
+108	3000	1
+110	2600	2
+104	2500	3
+107	2200	4
+105	2000	5
+106	1800	6
+109	1700	7
+102	1500	8
+101	1000	9
+
+21. Query #21 Execution time: 0.13ms
+city	order_amount	drnk
+Bangalore	2600	1
+Bangalore	2500	2
+Bangalore	2200	3
+Chennai	3000	1
+Chennai	3000	1
+Chennai	2000	2
+Chennai	1000	3
+Hyderabad	1800	1
+Hyderabad	1700	2
+Hyderabad	1500	3
+
+22. Query #22 Execution time: 0.14ms
+emp_name	salary	drnk
+Ravi	1500	1
+Pooja	1600	2
+Anjali	1700	3
+Arjun	1800	4
+Karthik	1900	5
+Amit	2000	6
+Priya	2000	6
+Simran	2000	6
+Divya	2100	7
+Neha	2200	8
+Meena	2300	9
+Manoj	2400	10
+Kiran	2500	11
+Deepak	2500	11
+Nisha	2600	12
+Rahul	2600	12
+Raj	2700	13
+Suresh	2800	14
+Vikas	3000	15
+Sneha	3000	15
+
+23. Query #23 Execution time: 0.16ms
+emp_name	department	join_date	drnk
+Kiran	Finance	2023-01-04	1
+Neha	Finance	2023-01-07	2
+Rahul	Finance	2023-01-10	3
+Manoj	Finance	2023-01-13	4
+Meena	Finance	2023-01-16	5
+Deepak	Finance	2023-01-19	6
+Ravi	HR	2023-01-02	1
+Arjun	HR	2023-01-06	2
+Anjali	HR	2023-01-09	3
+Pooja	HR	2023-01-12	4
+Karthik	HR	2023-01-15	5
+Simran	HR	2023-01-18	6
+Amit	IT	2023-01-01	1
+Sneha	IT	2023-01-03	2
+Priya	IT	2023-01-05	3
+Vikas	IT	2023-01-08	4
+Suresh	IT	2023-01-11	5
+Divya	IT	2023-01-14	6
+Raj	IT	2023-01-17	7
+Nisha	IT	2023-01-20	8
+
+24. Query #24 Execution time: 0.12ms
+order_id	order_date	drnk
+101	2023-01-01	1
+102	2023-01-02	2
+103	2023-01-03	3
+104	2023-01-04	4
+105	2023-01-05	5
+106	2023-01-06	6
+107	2023-01-07	7
+108	2023-01-08	8
+109	2023-01-09	9
+110	2023-01-10	10
