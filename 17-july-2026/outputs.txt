@@ -1,0 +1,489 @@
+ ---BASIC ASSIGNMENTS
+ ---UNION
+Query #1 Execution time: 0.43ms
+EmployeeName
+John
+Emma
+David
+Sophia
+Michael
+Olivia
+James
+William
+Ava
+Isabella
+Lucas
+Mia
+Ethan
+Charlotte
+Benjamin
+Amelia
+Henry
+Harper
+
+
+Query #2 Execution time: 0.28ms
+Department
+HR
+Finance
+IT
+Sales
+Marketing
+Operations
+
+
+Query #3 Execution time: 0.24ms
+CustomerName
+ABC Ltd
+XYZ Corp
+Global Tech
+Sunrise Inc
+Bright Solutions
+Alpha Systems
+TechWorld
+Future Corp
+Vision Ltd
+Skyline LLC
+
+
+Query #4 Execution time: 0.15ms
+City
+New York
+Chicago
+Dallas
+Boston
+Seattle
+Miami
+London
+Toronto
+Dubai
+Sydney
+
+
+Query #5 Execution time: 0.14ms
+Amount
+250.0
+450.0
+700.0
+900.0
+350.0
+1200.0
+600.0
+400.0
+1100.0
+850.0
+
+--UNION ALL
+Query #6 Execution time: 0.14ms
+EmployeeName
+John
+Emma
+David
+Sophia
+Michael
+Olivia
+James
+William
+Ava
+Isabella
+Michael
+Olivia
+Lucas
+Mia
+Ethan
+Charlotte
+Benjamin
+Amelia
+Henry
+Harper
+
+
+Query #7 Execution time: 0.13ms
+Department
+HR
+Finance
+IT
+IT
+Sales
+Marketing
+Marketing
+IT
+Finance
+Sales
+Sales
+Marketing
+HR
+Finance
+IT
+Sales
+Operations
+HR
+Finance
+IT
+
+
+Query #8 Execution time: 0.12ms
+CustomerName
+ABC Ltd
+XYZ Corp
+Global Tech
+Sunrise Inc
+Bright Solutions
+Alpha Systems
+Sunrise Inc
+Bright Solutions
+TechWorld
+Future Corp
+Vision Ltd
+Skyline LLC
+
+
+Query #9 Execution time: 0.22ms
+City
+New York
+Chicago
+Dallas
+Boston
+Seattle
+Miami
+Boston
+Seattle
+London
+Toronto
+Dubai
+Sydney
+
+
+Query #10 Execution time: 8.83ms
+Amount
+250.0
+450.0
+700.0
+900.0
+350.0
+1200.0
+900.0
+350.0
+600.0
+400.0
+1100.0
+850.0
+
+--EXCEPT
+Query #11 Execution time: 0.26ms
+EmployeeID	EmployeeName
+101	John
+102	Emma
+103	David
+104	Sophia
+107	James
+108	William
+109	Ava
+110	Isabella
+
+
+Query #12 Execution time: 0.18ms
+EmployeeID	EmployeeName
+111	Lucas
+112	Mia
+113	Ethan
+114	Charlotte
+115	Benjamin
+116	Amelia
+117	Henry
+118	Harper
+
+
+Query #13 Execution time: 0.15ms
+CustomerID	CustomerName
+1	ABC Ltd
+2	XYZ Corp
+3	Global Tech
+6	Alpha Systems
+
+
+Query #14 Execution time: 0.15ms
+OrderID	CustomerID	Amount
+1001	1	250.0
+1002	2	450.0
+1003	3	700.0
+1006	8	1200.0
+
+
+Query #15 Execution time: 0.13ms
+Department
+There are no results to be displayed.
+
+--INTERSECT
+Query #16 Execution time: 0.13ms
+EmployeeID	EmployeeName
+105	Michael
+106	Olivia
+
+
+Query #17 Execution time: 0.13ms
+Department
+HR
+Finance
+IT
+Sales
+Marketing
+
+
+Query #18 Execution time: 0.13ms
+CustomerID	CustomerName
+4	Sunrise Inc
+5	Bright Solutions
+Query #19 Execution time: 0.12ms
+City
+Boston
+Seattle
+
+
+Query #20 Execution time: 0.13ms
+OrderID	CustomerID	Amount
+1004	5	900.0
+1005	7	350.0
+
+
+--INTERMEDIATE ASSIGNMENTS
+--UNION
+Query #21 Execution time: 0.16ms
+EmployeeID	EmployeeName
+101	John
+102	Emma
+103	David
+104	Sophia
+105	Michael
+106	Olivia
+107	James
+108	William
+109	Ava
+110	Isabella
+111	Lucas
+112	Mia
+113	Ethan
+114	Charlotte
+115	Benjamin
+116	Amelia
+117	Henry
+118	Harper
+
+
+Query #22 Execution time: 0.14ms
+CustomerID	CustomerName
+1	ABC Ltd
+2	XYZ Corp
+3	Global Tech
+4	Sunrise Inc
+5	Bright Solutions
+6	Alpha Systems
+7	TechWorld
+8	Future Corp
+9	Vision Ltd
+10	Skyline LLC
+
+
+Query #23 Execution time: 0.13ms
+Salary
+50000.0
+65000.0
+70000.0
+72000.0
+55000.0
+48000.0
+60000.0
+75000.0
+52000.0
+68000.0
+45000.0
+62000.0
+71000.0
+53000.0
+59000.0
+51000.0
+67000.0
+73000.0
+
+
+Query #24 Execution time: 0.13ms
+OrderID
+1001
+1002
+1003
+1004
+1005
+1006
+1007
+1008
+1009
+1010
+
+
+Query #25 Execution time: 0.12ms
+Department
+HR
+Finance
+IT
+Sales
+Marketing
+Operations
+
+
+----UNION ALL
+Query #26 Execution time: 0.19ms
+TotalRows
+20
+
+
+Query #27 Execution time: 0.19ms
+CustomerID	CustomerName	City
+1	ABC Ltd	New York
+2	XYZ Corp	Chicago
+3	Global Tech	Dallas
+4	Sunrise Inc	Boston
+5	Bright Solutions	Seattle
+6	Alpha Systems	Miami
+4	Sunrise Inc	Boston
+5	Bright Solutions	Seattle
+7	TechWorld	London
+8	Future Corp	Toronto
+9	Vision Ltd	Dubai
+10	Skyline LLC	Sydney
+
+
+Query #28 Execution time: 0.13ms
+Salary
+50000.0
+65000.0
+70000.0
+72000.0
+55000.0
+48000.0
+60000.0
+75000.0
+52000.0
+68000.0
+55000.0
+48000.0
+45000.0
+62000.0
+71000.0
+53000.0
+59000.0
+51000.0
+67000.0
+73000.0
+
+
+Query #29 Execution time: 0.11ms
+City
+New York
+Chicago
+Dallas
+Boston
+Seattle
+Miami
+Boston
+Seattle
+London
+Toronto
+Dubai
+Sydney
+
+
+Query #30 Execution time: 0.12ms
+Amount
+250.0
+450.0
+700.0
+900.0
+350.0
+1200.0
+900.0
+350.0
+600.0
+400.0
+1100.0
+850.0
+
+--EXCEPT
+Query #31 Execution time: 0.13ms
+EmployeeID
+101
+102
+103
+104
+107
+108
+109
+110
+
+
+Query #32 Execution time: 0.12ms
+EmployeeID
+111
+112
+113
+114
+115
+116
+117
+118
+
+
+Query #33 Execution time: 0.11ms
+CustomerID
+1
+2
+3
+6
+
+
+Query #34 Execution time: 0.11ms
+CustomerID
+7
+8
+9
+10
+
+
+Query #35 Execution time: 0.11ms
+OrderID
+1001
+1002
+1003
+1006
+
+---INTERSECT
+Query #36 Execution time: 0.17ms
+EmployeeID
+105
+106
+
+
+Query #37 Execution time: 0.12ms
+CustomerID
+4
+5
+
+
+Query #38 Execution time: 0.12ms
+OrderID
+1004
+1005
+
+
+Query #39 Execution time: 0.12ms
+Salary
+55000.0
+48000.0
+
+
+Query #40 Execution time: 0.12ms
+Department
+HR
+Finance
+IT
+Sales
+Marketing
