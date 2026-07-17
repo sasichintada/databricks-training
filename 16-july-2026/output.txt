@@ -1,0 +1,396 @@
+# Advanced SQL JOIN Outputs
+
+## Q41 Output
+
+| DepartmentName | EmployeeName | Salary |
+|----------------|--------------|---------|
+| HR | John | 50000.0 |
+| Finance | Emma | 65000.0 |
+| IT | Sophia | 72000.0 |
+| Marketing | James | 60000.0 |
+| Sales | Isabella | 68000.0 |
+
+---
+
+## Q42 Output
+
+| DepartmentName | AverageSalary |
+|----------------|---------------|
+| IT | 71000.0 |
+
+---
+
+## Q43 Output
+
+| EmployeeName | ProjectName | Budget |
+|--------------|-------------|---------|
+| David | ERP Upgrade | 500000.0 |
+| Sophia | ERP Upgrade | 500000.0 |
+
+---
+
+## Q44 Output
+
+| Manager | Employee |
+|---------|----------|
+| John | Emma |
+| John | David |
+| David | Sophia |
+| Emma | Michael |
+| Emma | Olivia |
+| David | James |
+| John | William |
+| Michael | Isabella |
+
+---
+
+## Q45 Output
+
+| EmployeeName | TotalProjects |
+|--------------|---------------|
+| David | 2 |
+
+---
+
+## Q46 Output
+
+| EmployeeID | EmployeeName |
+|------------|--------------|
+| 106 | Olivia |
+
+---
+
+## Q47 Output
+
+| DepartmentID | DepartmentName |
+|--------------|----------------|
+| No rows found | |
+
+---
+
+## Q48 Output
+
+| DepartmentID | DepartmentName |
+|--------------|----------------|
+| No rows found | |
+
+---
+
+## Q49 Output
+
+| EmployeeName | ProjectCount |
+|--------------|--------------|
+| John | 1 |
+| Emma | 1 |
+| David | 2 |
+| Sophia | 1 |
+| Michael | 1 |
+| Olivia | 0 |
+| James | 1 |
+| William | 1 |
+| Ava | 1 |
+| Isabella | 1 |
+
+---
+
+## Q50 Output
+
+| DepartmentName | ProjectCount |
+|----------------|--------------|
+| HR | 1 |
+| Finance | 1 |
+| IT | 1 |
+| Marketing | 1 |
+| Sales | 1 |
+| Operations | 1 |
+
+---
+
+## Q51 Output
+
+| ProjectID | ProjectName |
+|-----------|-------------|
+| 206 | Automation |
+
+---
+
+## Q52 Output
+
+| DepartmentID | DepartmentName |
+|--------------|----------------|
+| No rows found | |
+
+---
+
+## Q53 Output
+
+| ProjectID | ProjectName |
+|-----------|-------------|
+| 207 | AI Chatbot |
+
+---
+
+## Q54 Output
+
+| EmployeeID | EmployeeName | DepartmentID |
+|------------|--------------|--------------|
+| 106 | Olivia | NULL |
+| 108 | William | 7 |
+| 109 | Ava | NULL |
+
+---
+
+## Q55 Output
+
+| DepartmentName | EmployeeCount |
+|----------------|---------------|
+| HR | 1 |
+| Finance | 1 |
+| IT | 2 |
+| Marketing | 1 |
+| Sales | 2 |
+| Operations | 0 |
+```
+
+# LEFT ANTI JOIN Outputs
+
+## Q56 Output
+
+| EmployeeID | EmployeeName |
+|------------|--------------|
+| 106 | Olivia |
+| 108 | William |
+| 109 | Ava |
+
+---
+
+## Q57 Output
+
+| DepartmentID | DepartmentName |
+|--------------|----------------|
+| 6 | Operations |
+
+---
+
+## Q58 Output
+
+| EmployeeID | EmployeeName |
+|------------|--------------|
+| 106 | Olivia |
+
+---
+
+## Q59 Output
+
+| DepartmentID | DepartmentName |
+|--------------|----------------|
+| No rows found | |
+
+---
+
+## Q60 Output
+
+| ProjectID | ProjectName |
+|-----------|-------------|
+| 207 | AI Chatbot |
+
+---
+
+# RIGHT ANTI JOIN Outputs
+
+## Q61 Output
+
+| DepartmentID | DepartmentName |
+|--------------|----------------|
+| 6 | Operations |
+
+---
+
+## Q62 Output
+
+| ProjectID | ProjectName |
+|-----------|-------------|
+| 206 | Automation |
+
+---
+
+## Q63 Output
+
+| DepartmentID | DepartmentName |
+|--------------|----------------|
+| No rows found | |
+
+---
+
+## Q64 Output
+
+| EmployeeID | EmployeeName | DepartmentID |
+|------------|--------------|--------------|
+| 106 | Olivia | NULL |
+| 108 | William | 7 |
+| 109 | Ava | NULL |
+
+---
+
+## Q65 Output
+
+| ProjectID | ProjectName | DepartmentID |
+|-----------|-------------|--------------|
+| 207 | AI Chatbot | 8 |
+
+---
+
+# FULL ANTI JOIN Outputs
+
+## Q66 Output
+
+| EmployeeName | DepartmentName |
+|--------------|----------------|
+| Olivia | NULL |
+| William | NULL |
+| Ava | NULL |
+| NULL | Operations |
+
+---
+
+## Q67 Output
+
+| DepartmentName | EmployeeName |
+|----------------|--------------|
+| Operations | NULL |
+| NULL | Olivia |
+| NULL | William |
+| NULL | Ava |
+
+---
+
+## Q68 Output
+
+| ProjectName | DepartmentName |
+|-------------|----------------|
+| AI Chatbot | NULL |
+
+---
+
+## Q69 Output
+
+| EmployeeName | ProjectName |
+|--------------|-------------|
+| Olivia | NULL |
+| NULL | Automation |
+
+---
+
+## Q70 Output
+
+| EmployeeID | EmployeeName | DepartmentID | DepartmentName |
+|------------|--------------|--------------|----------------|
+| 106 | Olivia | NULL | NULL |
+| 108 | William | 7 | NULL |
+| 109 | Ava | NULL | NULL |
+| NULL | NULL | 6 | Operations |
+
+# Expert Level Challenge Outputs
+
+## Q71 Output
+
+| DepartmentName | ProjectName | Budget |
+|----------------|-------------|---------|
+| IT | ERP Upgrade | 500000.0 |
+
+---
+
+## Q72 Output
+
+| EmployeeName | DepartmentName |
+|--------------|----------------|
+| No rows found | |
+
+---
+
+## Q73 Output
+
+| ProjectName | TotalEmployees |
+|-------------|----------------|
+| Audit System | 2 |
+| ERP Upgrade | 2 |
+| Sales Dashboard | 2 |
+| AI Chatbot | 2 |
+
+---
+
+## Q74 Output
+
+| EmployeeName | EmployeeDepartment | ProjectName |
+|--------------|--------------------|-------------|
+| David | IT | AI Chatbot |
+
+---
+
+## Q75 Output
+
+| DepartmentName |
+|----------------|
+| HR |
+| Finance |
+| IT |
+| Sales |
+| Marketing |
+
+---
+
+## Q76 Output
+
+| Manager | EmployeeName |
+|---------|--------------|
+| David | Sophia |
+| David | James |
+| Emma | Michael |
+| Emma | Olivia |
+| John | Emma |
+| John | David |
+| John | William |
+
+---
+
+## Q77 Output
+
+| DepartmentName |
+|----------------|
+| Marketing |
+| Operations |
+
+---
+
+## Q78 Output
+
+| Manager | EmployeeCount |
+|---------|---------------|
+| No rows found | |
+
+---
+
+## Q79 Output
+
+| EmployeeName | EmployeeJoiningDate | Manager | ManagerJoiningDate |
+|--------------|---------------------|---------|--------------------|
+| David | 2019-07-22 | John | 2020-01-15 |
+| Isabella | 2021-06-05 | Michael | 2021-09-18 |
+
+---
+
+## Q80 Output
+
+| EmployeeName | DepartmentName | ProjectName | Budget | ManagerName | Salary | Location |
+|--------------|----------------|-------------|---------|-------------|---------|----------|
+| John | HR | Payroll System | 150000.0 | NULL | 50000.0 | New York |
+| Emma | Finance | Audit System | 200000.0 | John | 65000.0 | Chicago |
+| David | IT | AI Chatbot | 300000.0 | John | 70000.0 | Dallas |
+| David | IT | ERP Upgrade | 500000.0 | John | 70000.0 | Dallas |
+| Sophia | IT | ERP Upgrade | 500000.0 | David | 72000.0 | Dallas |
+| Michael | Sales | Sales Dashboard | 175000.0 | Emma | 55000.0 | Seattle |
+| Olivia | NULL | NULL | NULL | Emma | 48000.0 | NULL |
+| James | Marketing | Website Redesign | 100000.0 | David | 60000.0 | Boston |
+| William | NULL | AI Chatbot | 300000.0 | John | 75000.0 | NULL |
+| Ava | NULL | Audit System | 200000.0 | NULL | 52000.0 | NULL |
+| Isabella | Sales | Sales Dashboard | 175000.0 | Michael | 68000.0 | Seattle |
